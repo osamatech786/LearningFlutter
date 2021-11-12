@@ -1,5 +1,5 @@
 # LearningFlutter
-Finally I started learning flutter on 28-oct-21. In this repo I'll be uploading all the projects that I'll be larning
+Finally I started learning flutter on 28-oct-21. In this repo I'll be uploading all the projects that I'll be larning so make sure to CHECK README FILE IN EVERY PROJECT.
 
 Docs: https://flutter.dev/docs
 
