@@ -12,6 +12,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      /*
+      //app title
+      title: 'Hello World Flutter Application',
+      theme: ThemeData(
+        //default theme color is blue
+        primarySwatch: Colors.blue,
+      ),
+      */
       home: Scaffold(
         body: Text("Hellow World!"),
       ),
