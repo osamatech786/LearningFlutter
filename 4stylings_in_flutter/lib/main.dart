@@ -163,21 +163,21 @@ class _ListTileWidgetState extends State<ListTileWidget> {
       body: Container(
         margin: EdgeInsets.only(top: 70),
         child: Column(
-          children: [ClassName(), ClassName(), ClassName()],
+          children: [ClassName("msg1"), ClassName("msg2"), ClassName("msg3")],
         ),
       ),
     );
   }
 }
 
-Widget ClassName() {
+Widget ClassName(var msg) {
   return ListTile(
     leading: CircleAvatar(
       radius: 20,
       backgroundImage: AssetImage("assets/tree.png"),
     ),
     title: Text("test user"),
-    subtitle: Text("Hi"),
+    subtitle: Text(msg),
     trailing: Column(
       children: [
         Text("Test"),
